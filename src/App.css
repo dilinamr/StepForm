@@ -1,0 +1,32 @@
+.form-group {
+  margin-bottom: 10px;
+}
+.input-margin {
+  margin-right: 20px !important;
+}
+.text-right {
+  text-align: right;
+}
+.main {
+  max-width: 45%;
+  margin: 5% auto;
+  border: 1px solid rgb(196 196 196);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.stepper-width {
+  width: 60%;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .main {
+    max-width: 100%;
+    border: none;
+    margin: auto;
+  }
+  .stepper-width {
+    width: auto;
+  }
+}
