@@ -20,6 +20,25 @@
   width: 60%;
   margin: auto;
 }
+.btn-back {
+  margin-right: 10px !important;
+}
+.margin-brandname {
+  padding-top: 24px !important;
+}
+.heading {
+  margin: auto;
+  font-family: sans-serif;
+}
+h1 {
+  font-weight: 100;
+  text-align: center;
+}
+h3 {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: rgb(53, 53, 216);
+}
 @media (max-width: 600px) {
   .main {
     max-width: 100%;
@@ -28,5 +47,8 @@
   }
   .stepper-width {
     width: auto;
+  }
+  p {
+    display: none;
   }
 }
